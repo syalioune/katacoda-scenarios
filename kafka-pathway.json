@@ -1,0 +1,18 @@
+{
+  "title": "Katacoda Kafka pathway example",
+  "description": "Thematic learning pathway example using Kafka",
+  "icon": "fa-katacoda",
+  "courses": 
+  [
+    {
+      "course_id": "kafka-console-topics",
+      "title": "Discovering Kafka topics CLI",
+      "description": "Use kafka-topics CLI to manipulate topics and retrieve informations from them"
+    },
+    {
+      "course_id": "kafka-console-consumer-groups",
+      "title": "Discovering Kafka consumer group CLI",
+      "description": "Use kafka-consumer-groups CLI to describe consumer groups"
+    }
+  ]
+}

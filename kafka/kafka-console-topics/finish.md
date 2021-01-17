@@ -1,0 +1,1 @@
+Congratulations. You have completed this beginner scenario on Kafka topics manipulation with CLI.

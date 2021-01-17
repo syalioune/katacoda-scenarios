@@ -1,0 +1,47 @@
+{
+  "title": "Kafka topics CLI",
+  "icon": "fa-katacoda",
+  "description": "Topics manipulation using Kafka CLI",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Step 1 - List a Kafka broker's existing topics",
+        "text": "step1.md",
+        "courseData": "step1-background.sh",
+        "code": "step1-foreground.sh"
+      },
+      {
+        "title": "Step 2 - Describe a Kafka topic",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Create a Kafka topic",
+        "text": "step3.md",
+        "verify": "step3-verify.sh"
+      }
+    ],
+    "assets": {
+      "host01": [
+        {
+          "file": "kafka-deployment.yaml", 
+          "target": "/root/"
+        }
+      ]
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "difficulty": "beginner",
+  "time": "10min",
+  "environment": {
+    "hideintro": false,
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
